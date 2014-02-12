@@ -2531,7 +2531,7 @@ article.format-link header {
   border-radius: 3px;
 }
 article.format-link .entry-content {
-  max-width: 80%;
+  max-width: 60%;
   float: left;
 }
 article.format-link .entry-content a {
@@ -2542,7 +2542,7 @@ article.format-link .entry-content a {
 }
 /* Quote posts */
 article.format-quote .entry-content p {
-  margin: 0;
+  margin: none;
   padding-bottom: 24px;
   padding-bottom: 1.714285714rem;
 }
