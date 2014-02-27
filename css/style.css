@@ -1542,14 +1542,14 @@ audio:not([controls]) {
   display: none;
 }
 del {
-  color: #333;
+  color: #333333;
 }
 ins {
   background: #fff9c0;
   text-decoration: none;
 }
 hr {
-  background-color: #ccc;
+  background-color: #cccccc;
   border: 0;
   height: 1px;
   margin: 24px;
@@ -1617,7 +1617,7 @@ article.format-status footer.entry-meta {
 button,
 input,
 textarea {
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
   font-family: inherit;
   padding: 6px;
@@ -1712,7 +1712,7 @@ input[type="reset"]:active {
   border: none;
 }
 li.bypostauthor cite span {
-  color: #fff;
+  color: #ffffff;
   background-color: #21759b;
   background-image: none;
   border: 1px solid #1f6f93;
@@ -1893,7 +1893,7 @@ body {
   font-size: 1rem;
   font-family: Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
-  color: #444;
+  color: #444444;
 }
 body.custom-font-enabled {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -1914,11 +1914,11 @@ a:hover {
 .main-navigation .assistive-text:hover,
 .main-navigation .assistive-text:active,
 .main-navigation .assistive-text:focus {
-  background: #fff;
-  border: 2px solid #333;
+  background: #ffffff;
+  border: 2px solid #333333;
   border-radius: 3px;
   clip: auto !important;
-  color: #000;
+  color: #000000;
   display: block;
   font-size: 12px;
   padding: 12px;
@@ -1994,7 +1994,7 @@ a:hover {
   font-size: ;
 }
 h1 {
-  font-family: "Boogaloo", Helvetica, Arial, sans-serif !important;
+  font-family: 'Boogaloo', cursive;
   font-weight: 400;
 }
 .site-header h2 {
@@ -2309,7 +2309,7 @@ article.sticky .featured-post {
 .entry-content pre,
 .comment-content pre {
   border: 1px solid #ededed;
-  color: #666;
+  color: #666666;
   font-family: Consolas, Monaco, Lucida Console, monospace;
   font-size: 12px;
   font-size: 0.857142857rem;
@@ -2330,7 +2330,7 @@ article.sticky .featured-post {
 .comment-content dfn,
 .entry-content acronym,
 .comment-content acronym {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #666666;
   cursor: help;
 }
 .entry-content address,
@@ -2554,7 +2554,7 @@ article.format-quote .entry-content blockquote {
   font-size: 1.071428571rem;
   line-height: 1.6;
   font-style: normal;
-  color: #6a6a6a;
+  color: #686868;
   background: #efefef;
 }
 /* Status posts */
@@ -2642,7 +2642,7 @@ article.format-quote .entry-content blockquote {
   color: #21759b;
 }
 .comments-area article header cite a {
-  color: #444;
+  color: #444444;
 }
 .comments-area article header cite a:hover {
   text-decoration: underline;
@@ -2656,7 +2656,7 @@ article.format-quote .entry-content blockquote {
   font-size: 12px;
   font-size: 0.857142857rem;
   font-weight: normal;
-  color: #fff;
+  color: #ffffff;
   background-color: #0088d0;
   background-repeat: repeat-x;
   background-image: -moz-linear-gradient(top, #009cee, #0088d0);
@@ -2796,7 +2796,7 @@ a.comment-edit-link:hover {
 }
 .widget_recent_entries .post-date,
 .widget_rss .rss-date {
-  color: #aaa;
+  color: #aaaaaa;
   font-size: 11px;
   font-size: 0.785714286rem;
   margin-left: 12px;
@@ -2844,24 +2844,16 @@ img#wpstats {
 /* =Media queries
 -------------------------------------------------------------- */
 @media screen and (min-width: 320px) {
-  /* Buttons */
+  h3 {
+    -webkit-margin-before: 0!important;
+    -webkit-margin-after: 0!important;
+  }
   header.site-header h1.site-title {
     text-transform: uppercase;
   }
   .site-header {
     background-size: 340px auto;
     padding: 5.142857142rem 0 1.714285714rem 0;
-  }
-  .site-header {
-    padding: 5.142857142rem 0 1.714285714rem 0;
-    background: url('img/121813-siteHeaderbg480x81.gif');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100% auto;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -ms-background-size: 100% auto;
-    -o-background-size: 100% auto;
   }
   .main-navigation {
     background-color: #674fa0;
@@ -2876,31 +2868,8 @@ img#wpstats {
   .main-navigation ul.nav-menu.toggled-on li:hover {
     background-color: #674fa0;
   }
-  h3 {
-    -webkit-margin-before: 0!important;
-    -webkit-margin-after: 0!important;
-  }
-  #facebook_status_box {
-    padding: 0px!important;
-  }
-  #facebook_status_box h2 {
-    text-transform: uppercase;
-    padding: 5px 0px 5px 0px!important;
-    text-align: center;
-  }
-  #facebook_status_box .fb_post h5 {
-    font-size: 16.5px !important;
-    font-weight: 300;
-    padding: 5px 0px 5px 0px!important;
-  }
-  #facebook_status_box .fb_link_post img {
-    margin: 23px 3px 23px 0px!important;
-  }
-  .menu-menu-2013-container {
-    background-color: #674fa0;
-  }
   .main-navigation a {
-    font-family: 'Boogaloo';
+    font-family: 'Boogaloo', cursive;
     text-decoration: none;
     font-size: 2rem;
   }
@@ -2912,6 +2881,9 @@ img#wpstats {
   }
   .main-navigation a:visited {
     color: #7c7c7c;
+  }
+  .menu-menu-2013-container {
+    background-color: #674fa0;
   }
   .menu-toggle {
     width: 100%;
@@ -2946,6 +2918,22 @@ img#wpstats {
     background-position: center;
     background-color: #674fa0;
     box-shadow: none;
+  }
+  #facebook_status_box {
+    padding: 0px!important;
+  }
+  #facebook_status_box h2 {
+    text-transform: uppercase;
+    padding: 5px 0px 5px 0px!important;
+    text-align: center;
+  }
+  #facebook_status_box .fb_post h5 {
+    font-size: 16.5px !important;
+    font-weight: 300;
+    padding: 5px 0px 5px 0px!important;
+  }
+  #facebook_status_box .fb_link_post img {
+    margin: 23px 3px 23px 0px!important;
   }
 }
 @media screen and (min-width: 480px) {
@@ -3034,14 +3022,14 @@ img#wpstats {
   }
   .main-navigation li a {
     border-bottom: 0;
-    /*color: #6a6a6a;*/
+    /*color: @gray14;*/
     color: orange;
     line-height: 3.692307692rem;
     text-transform: uppercase;
     white-space: nowrap;
   }
   .main-navigation li a:hover {
-    /*color: #000;*/
+    /*color: @black;*/
     color: white;
   }
   .main-navigation li {
@@ -3066,8 +3054,8 @@ img#wpstats {
     display: block;
   }
   .main-navigation li ul li a {
-    /*background: #efefef;*/
-    background: #333;
+    /*background: @lightgray10;*/
+    background: #333333;
     border-bottom: 1px solid #674fa0;
     display: block;
     font-size: 16.5px;
@@ -3080,9 +3068,9 @@ img#wpstats {
     white-space: normal;
   }
   .main-navigation li ul li a:hover {
-    /*background: #e3e3e3;*/
-    background: #000;
-    /*color: #444;*/
+    /*background: @lightgray12;*/
+    background: #000000;
+    /*color: @gray6;*/
     color: white;
   }
   .main-navigation li ul {
@@ -3092,7 +3080,7 @@ img#wpstats {
   .main-navigation .current-menu-ancestor > a,
   .main-navigation .current_page_item > a,
   .main-navigation .current_page_ancestor > a {
-    /*color: #636363;*/
+    /*color: @gray3;*/
     color: white;
     font-weight: 300;
   }
@@ -3189,8 +3177,8 @@ img#wpstats {
     z-index: 999;
   }
   .main-navigation li ul li a {
-    /*background: #efefef;*/
-    background: #333;
+    /*background: @lightgray10;*/
+    background: #333333;
     border-bottom: 1px solid #674fa0;
     display: block;
     font-size: 16.5px;
@@ -3243,14 +3231,14 @@ img#wpstats {
   }
   .main-navigation li a {
     border-bottom: 0;
-    /*color: #6a6a6a;*/
+    /*color: @gray14;*/
     color: orange;
     line-height: 3.692307692rem;
     text-transform: uppercase;
     white-space: nowrap;
   }
   .main-navigation li a:hover {
-    /*color: #000;*/
+    /*color: @black;*/
     color: white;
   }
   .main-navigation li {
@@ -3278,16 +3266,16 @@ img#wpstats {
     z-index: 999;
   }
   .main-navigation li ul li a:hover {
-    /*background: #e3e3e3;*/
-    background: #000;
-    /*color: #444;*/
+    /*background: @lightgray12;*/
+    background: #000000;
+    /*color: @gray6;*/
     color: white;
   }
   .main-navigation .current-menu-item > a,
   .main-navigation .current-menu-ancestor > a,
   .main-navigation .current_page_item > a,
   .main-navigation .current_page_ancestor > a {
-    /*color: #636363;*/
+    /*color: @gray3;*/
     color: white;
     font-weight: bold;
   }
@@ -3374,8 +3362,8 @@ img#wpstats {
     z-index: 999;
   }
   body .main-navigation li ul li a {
-    /*background: #efefef;*/
-    background: #333;
+    /*background: @lightgray10;*/
+    background: #333333;
     border-bottom: 1px solid #674fa0;
     display: block;
     font-size: 16.5px;
@@ -3404,7 +3392,7 @@ img#wpstats {
 @media print {
   body {
     background: none !important;
-    color: #000;
+    color: #000000;
     font-size: 10pt;
   }
   footer a[rel=bookmark]:link:after,
@@ -3446,7 +3434,7 @@ img#wpstats {
   }
   .site-header h1 a,
   .site-header h2 a {
-    color: #000;
+    color: #000000;
   }
   .author-avatar,
   #colophon,
@@ -3488,7 +3476,7 @@ img#wpstats {
   }
   footer.entry-meta,
   footer.entry-meta a {
-    color: #444;
+    color: #444444;
     font-size: 10pt;
   }
   .author-description {
@@ -3607,7 +3595,7 @@ img#wpstats {
   line-height: 1;
 }
 #facebook_status_box .fb_post h5 a {
-  color: #0A7A98;
+  color: #0a7a98;
   text-decoration: none;
 }
 #facebook_status_box .fb_post .fb_photoblock {
@@ -3656,7 +3644,7 @@ img#wpstats {
   margin: 3px 0px 0px 0px;
 }
 #facebook_status_box .fb_link_post a {
-  color: #0A7A98;
+  color: #0a7a98;
   text-decoration: none;
 }
 #facebook_status_box .fb_link_post a:hover {
@@ -3687,12 +3675,12 @@ img#wpstats {
 }
 #facebook_status_box .fb_post .fb_commLink {
   font-size: 11px;
-  background: #EDEFF4;
+  background: #edeff4;
   padding: 3px 7px;
   clear: both;
 }
 #facebook_status_box .fb_post .fb_commLink a {
-  color: #0A7A98;
+  color: #0a7a98;
   text-decoration: none;
 }
 #facebook_status_box .fb_post .fb_msg .fb_commLink a:hover {
@@ -3714,7 +3702,7 @@ img#wpstats {
   color: #999999;
 }
 #facebook_status_box .fb_post .fb_comments {
-  background-color: #EDEFF4;
+  background-color: #edeff4;
   font-size: 11px;
   border-bottom: 1px solid #e6e6fa;
   overflow: hidden;
@@ -3728,7 +3716,7 @@ img#wpstats {
   float: left;
 }
 #facebook_status_box .fb_post .fb_comments a {
-  color: #0A7A98;
+  color: #0a7a98;
   text-decoration: none;
 }
 #facebook_status_box #facebook_canvas .fb_post .fb_commLink .fb_likes .tooltip {
