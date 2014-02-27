@@ -10,6 +10,14 @@
  Template:       twentytwelve
  Version:        1.0.0
 */
+/* 100% */
+/* 98% */
+/* 94% */
+/* 0% */
+/* 46% */
+/* 46% */
+/* 36% */
+/* 49% */
 @font-face {
   font-family: 'icomoon';
   src: url('fonts/icomoon.eot');
@@ -1888,32 +1896,35 @@ img.wp-smiley,
 html {
   font-size: 87.5%;
 }
-body {
+html body {
   font-size: 14px;
   font-size: 1rem;
   font-family: Helvetica, Arial, sans-serif;
   text-rendering: optimizeLegibility;
   color: #444444;
+  /* Assistive text */
+  /* Page structure */
+  /* Header */
+  /* Navigation Menu */
 }
-body.custom-font-enabled {
+html body .custom-font-enabled {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
-a {
+html body a {
   outline: none;
   color: #21759b;
 }
-a:hover {
+html body a:hover {
   color: #0f3647;
 }
-/* Assistive text */
-.assistive-text,
-.site .screen-reader-text {
+html body .assistive-text,
+html body .site .screen-reader-text {
   position: absolute !important;
   clip: rect(1px, 1px, 1px, 1px);
 }
-.main-navigation .assistive-text:hover,
-.main-navigation .assistive-text:active,
-.main-navigation .assistive-text:focus {
+html body .main-navigation .assistive-text:hover,
+html body .main-navigation .assistive-text:active,
+html body .main-navigation .assistive-text:focus {
   background: #ffffff;
   border: 2px solid #333333;
   border-radius: 3px;
@@ -1928,21 +1939,19 @@ a:hover {
   z-index: 100000;
   /* Above WP toolbar */
 }
-/* Page structure */
-.site {
+html body .site {
   padding: 0 24px;
   padding: 0 1.714285714rem;
   background-color: none;
 }
-.site-content {
+html body .site-content {
   margin: 24px 0 0;
   margin: 1.714285714rem 0 0;
 }
-.widget-area {
+html body .widget-area {
   margin: 24px 0 0;
   margin: 1.714285714rem 0 0;
 }
-/* Header */
 @keyframes fadeInHeader {
   from {
     opacity: .5;
@@ -1959,7 +1968,7 @@ a:hover {
     opacity: 1;
   }
 }
-.site-header {
+html body .site-header {
   padding: 20.571428568rem 0 1.714285714rem 0;
   background: url('img/121813-siteHeaderbg960x162.gif');
   background-repeat: no-repeat;
@@ -1985,80 +1994,76 @@ a:hover {
   -webkit-animation-direction: alternate;
   -webkit-animation-play-state: running;
 }
-.site-header h1,
-.site-header h2 {
+html body .site-header h1,
+html body .site-header h2 {
   text-align: center;
 }
-.site-header h2 {
-  text-transform: none;
-  font-size: ;
-}
-h1 {
-  font-family: 'Boogaloo', cursive;
-  font-weight: 400;
-}
-.site-header h2 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
-}
-.site-header h1 a,
-.site-header h2 a {
+html body .site-header h1 a,
+html body .site-header h2 a {
   color: #000000;
   display: inline-block;
   text-decoration: none;
 }
-.site-header h1 a:hover,
-.site-header h2 a:hover {
+html body .site-header h1 a:hover,
+html body .site-header h2 a:hover {
   color: orange!important;
 }
-.site-header h1 {
+html body .site-header h1 {
+  font-family: 'Boogaloo', cursive;
+  font-weight: 400;
   /*font-size: 24px;
-	font-size: 1.714285714rem;*/
+        font-size: 1.714285714rem;*/
   font-size: 48px;
   font-size: 3.71428572rem;
   line-height: 1.285714286;
   margin-bottom: 14px;
   margin-bottom: 1rem;
 }
-header.site-header h1.site-title {
-  text-align: center;
-}
-.site-header h2 {
+html body .site-header h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
   font-size: 13px;
   font-size: 1.044642857625rem;
   line-height: 1.846153846;
   color: #777777;
 }
-.header-image {
+html body .site-header h2 a {
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+}
+html body header.site-header h1.site-title {
+  text-align: center;
+}
+html body .header-image {
   margin-top: 24px;
   margin-top: 1.714285714rem;
 }
-/* Navigation Menu */
-.main-navigation {
+html body .main-navigation {
   margin-top: 24px;
   margin-top: 1.714285714rem;
   text-align: center;
 }
-.main-navigation li {
+html body .main-navigation li {
   margin-top: 24px;
   margin-top: 1.714285714rem;
   font-size: 12px;
   font-size: 0.857142857rem;
   line-height: 1.42857143;
 }
-.main-navigation a {
+html body .main-navigation a {
   color: #5e5e5e;
 }
-.main-navigation a:hover {
+html body .main-navigation a:hover {
   color: #21759b;
 }
-.main-navigation ul.nav-menu,
-.main-navigation div.nav-menu > ul {
+html body .main-navigation ul.nav-menu,
+html body .main-navigation div.nav-menu > ul {
   display: none;
   text-align: center;
 }
-.main-navigation ul.nav-menu.toggled-on,
-.menu-toggle {
+html body .main-navigation ul.nav-menu.toggled-on,
+html body .main-navigation .menu-toggle {
   display: inline-block;
 }
 /* Banner */
