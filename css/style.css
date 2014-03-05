@@ -2844,7 +2844,7 @@ img#wpstats {
 }
 /* =Media queries
 -------------------------------------------------------------- */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
   h3 {
     -webkit-margin-before: 0!important;
     -webkit-margin-after: 0!important;
@@ -2853,7 +2853,7 @@ img#wpstats {
     text-transform: uppercase;
   }
   .site-header {
-    padding: 5.142857142rem 0 1.714285714rem 0;
+    padding: 17.14285714% 0 1.714285714rem 0;
     background: url('img/121813-siteHeaderbg480x81.gif');
     background-repeat: no-repeat;
     background-position: center top;
@@ -2880,6 +2880,7 @@ img#wpstats {
     font-family: 'Boogaloo', cursive;
     text-decoration: none;
     font-size: 1.4rem;
+    text-transform: uppercase;
   }
   .main-navigation a:link {
     color: #f9a41a;
@@ -2968,28 +2969,54 @@ img#wpstats {
     margin: 23px 3px 23px 0px!important;
   }
 }
-@media screen and (min-width: 480px) {
-  .site-header {
-    padding: 6.342857141800001rem 0 1.714285714rem 0;
-    background: url('img/121813-siteHeaderbg600x101.gif');
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100% auto;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -ms-background-size: 100% auto;
-    -o-background-size: 100% auto;
+@media screen and (min-width: 600px) {
+  .main-navigation ul.nav-menu.toggled-on {
+    display: none;
   }
   .main-navigation {
     background-color: #674fa0;
   }
-  header.site-header h1.site-title {
+  .main-navigation a {
+    font-family: 'Boogaloo', cursive;
+    text-decoration: none;
+    font-size: 1.4rem;
     text-transform: uppercase;
   }
-}
-@media screen and (min-width: 600px) {
-  .main-navigation ul.nav-menu.toggled-on {
-    display: none;
+  .main-navigation a:link {
+    color: #f9a41a;
+  }
+  .main-navigation a:hover {
+    color: #ffffff;
+  }
+  .main-navigation a:visited {
+    color: #7c7c7c;
+  }
+  .main-navigation li a[href="http://www.stoughtoncommunityevents.org/"]:before {
+    font-family: icomoon;
+    font-weight: 300;
+    content: '\e600\00a0';
+    speak: none;
+  }
+  .main-navigation li a[href="http://www.stoughtoncommunityevents.org/events/category/scec-events/"]:before {
+    font-family: icomoon;
+    font-weight: 300;
+    content: '\e64e\00a0';
+    speak: none;
+  }
+  .main-navigation li a[href="http://www.stoughtoncommunityevents.org/events/category/meetings/"]:before {
+    font-family: icomoon;
+    font-weight: 300;
+    content: '\e66c\00a0';
+    speak: none;
+  }
+  .main-navigation li a[href="http://www.stoughtoncommunityevents.org/connect/"]:before {
+    font-family: icomoon;
+    font-weight: 300;
+    content: '\e6c3\00a0';
+    speak: none;
+  }
+  .menu-menu-2013-container {
+    background-color: #674fa0;
   }
   .author-avatar {
     float: left;
@@ -3033,6 +3060,17 @@ img#wpstats {
     font-size: 3.71428572rem;
     line-height: 1.846153846;
     margin-bottom: 0;
+  }
+  .site-header {
+    padding: 5.999999999rem 0 1.714285714rem 0;
+    background: url('img/121813-siteHeaderbg768x130.gif');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
   }
   .main-navigation ul.nav-menu,
   .main-navigation div.nav-menu > ul {
@@ -3192,7 +3230,7 @@ img#wpstats {
     width: 65.104166667%;
   }
   .site-header {
-    padding: 10.285714284rem 0 1.714285714rem 0;
+    padding: 17.14285714% 0 1.714285714rem 0;
     background: url('img/121813-siteHeaderbg768x130.gif');
     background-repeat: no-repeat;
     background-position: center top;
